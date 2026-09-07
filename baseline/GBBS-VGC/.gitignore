@@ -1,0 +1,10 @@
+*
+!*.*
+!*/
+!Makefile
+*.out
+*.dat
+*.txt
+*.bin
+data/dir/*.bin
+data/sym/*.bin
