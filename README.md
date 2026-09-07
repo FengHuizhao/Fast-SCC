@@ -134,20 +134,24 @@ The program performs one unmeasured warm-up execution before the measured runs. 
 
 ## Input Graphs
 
-Fast-SCC supports the binary graph representation read by `graph.hpp`. The repository contains the ten directed graphs used in the experiments:
+Fast-SCC supports the binary graph representation read by `graph.hpp`. The ten directed graphs used in the experiments:
 
-| Abbreviation | File                    |
-| ------------ | ----------------------- |
-| LJ           | `soc-LiveJournal1.bin`  |
-| HH5          | `Household.lines_5.bin` |
-| CH5          | `CHEM_5.bin`            |
-| GL2          | `GeoLifeNoScale_2.bin`  |
-| GL5          | `GeoLifeNoScale_5.bin`  |
-| GL10         | `GeoLifeNoScale_10.bin` |
-| GL15         | `GeoLifeNoScale_15.bin` |
-| GL20         | `GeoLifeNoScale_20.bin` |
-| SQR          | `grid_4000_4000.bin`    |
-| REC          | `grid_1000_10000.bin`   |
+| Abbreviation | File                    | Download Link                                                |
+| ------------ | ----------------------- | ------------------------------------------------------------ |
+| LJ           | `soc-LiveJournal1.bin`  | https://www.dropbox.com/scl/fi/836oq1mpruk6y0pul4d4t/soc-LiveJournal1.bin?rlkey=a97bmdoi31a0v87x2j6lmrldg&dl=0 |
+| HH5          | `Household.lines_5.bin` | https://www.dropbox.com/scl/fi/ndpp5pq2jjlhuqhpx91r7/Household.lines_5.bin?rlkey=n8s0s9wqyzqfxdl82mmqui1z7&dl=0 |
+| CH5          | `CHEM_5.bin`            | https://www.dropbox.com/scl/fi/f0n4o9mrbcfqhw54oa95i/CHEM_5.bin?rlkey=cji03kmi4e5tzmrdj36jsk062&dl=0 |
+| GL2          | `GeoLifeNoScale_2.bin`  | https://www.dropbox.com/scl/fi/kckxpp3wcmpbkphikqer4/GeoLifeNoScale_2.bin?rlkey=ybmgdkymbq4i06fvsumk7w9ak&dl=0 |
+| GL5          | `GeoLifeNoScale_5.bin`  | https://www.dropbox.com/scl/fi/x3rrl7imfok5742c8g22v/GeoLifeNoScale_5.bin?rlkey=pltytc4h08oyb93hgf3aho0lo&dl=0 |
+| GL10         | `GeoLifeNoScale_10.bin` | https://www.dropbox.com/scl/fi/5fw3fhmaqekhihevxvj5e/GeoLifeNoScale_10.bin?rlkey=ed5qn87vdc9m0fjgey7bcopzx&dl=0 |
+| GL15         | `GeoLifeNoScale_15.bin` | https://www.dropbox.com/scl/fi/roc5tryp828wj3sdlzceu/GeoLifeNoScale_15.bin?rlkey=20tfzbv69xsh841sobh5tny05&dl=0 |
+| GL20         | `GeoLifeNoScale_20.bin` | https://www.dropbox.com/scl/fi/2ufpj603of52ygv8ppqg3/GeoLifeNoScale_20.bin?rlkey=qo9csmyg9bryl3kxejwfhiiwr&dl=0 |
+| SQR          | `grid_4000_4000.bin`    | https://www.dropbox.com/scl/fi/7jt1isj9oxejjroeailvk/grid_4000_4000.bin?rlkey=boftsrs25u9gngbmg7mfuaao0&dl=0 |
+| REC          | `grid_1000_10000.bin`   | https://www.dropbox.com/scl/fi/wxc3cbdg3i3i6kuqh8ydf/grid_1000_10000.bin?rlkey=ouj3ulurgeomxoruc7g9f6tur&dl=0 |
+
+> [!NOTE]
+>
+> Graph datasets are **not included** in this repository. Please obtain all `.bin`‑format graph files from [Download Link], place them under the `data/` folder at the project root directory, and then proceed with compilation and execution.
 
 ## Experimental Platform
 
